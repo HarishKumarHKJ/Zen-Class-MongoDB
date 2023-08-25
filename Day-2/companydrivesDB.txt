@@ -1,0 +1,29 @@
+db.createCollection("companydrives");
+
+db.companydrives.insertMany([
+  {
+      userid:1,
+      drive_date:ISODate("2023-09-02"),
+      company:"CGI"
+  },
+   {
+      userid:1,
+      drive_date:ISODate("2023-09-04"),
+      company:"TCS"
+  },
+   {
+      userid:2,
+      drive_date:ISODate("2023-09-09"),
+      company:"Wipro"
+  },
+   {
+      userid:3,
+      drive_date:ISODate("2023-09-16"),
+      company:"Amazon"
+  },
+   {
+      userid:4,
+      drive_date:ISODate("2023-09-23"),
+      company:"Google"
+  }
+  ]);

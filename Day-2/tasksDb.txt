@@ -1,0 +1,39 @@
+db.createCollection("tasks");
+
+db.tasks.insertMany([
+  {
+    "topic_id":1,
+    "task_id":1,
+    "topic":"HTML",
+    "description":"Create a simple website using HTML",
+    "deadline_date":ISODate("2023-05-01")
+  },
+  {
+    "topic_id":2,
+    "task_id":2,
+    "topic":"CSS",
+    "description":"create simple website using HTML and CSS",
+    "deadline_date":ISODate("2023-05-02")
+  },
+  {
+    "topic_id":3,
+    "task_id":3,
+    "topic":"Javascript",
+    "description":"Add logics to the create context",
+    "deadline_date":ISODate("2023-05-03")
+  },
+  {
+    "topic_id":4,
+    "task_id":4,
+    "topic":"React",
+    "description":"Create website (created by using of html,css & js) using react",
+    "deadline_date":ISODate("2023-05-04")
+  },
+{
+  "topic_id": 5,
+  "task_id": 5,
+  "topic": "Bootstrap",
+  "description": "Create website using bootstrap",
+ "deadline_date":ISODate("2023-05-05")
+}
+]);

@@ -1,0 +1,44 @@
+db.createCollection("topics");
+
+db.topics.insertMany([
+  {
+    "topic_id":1,
+     "task_id":1,
+    "topic":"HTML",
+    "description":"Html",
+    "start_date":ISODate("2023-03-23"),
+    "end_date":ISODate("2023-04-07")
+  },
+  {
+    "topic_id":2,
+     "task_id":2,
+    "topic":"CSS",
+    "description":"Css",
+    "start_date":ISODate("2023-04-10"),
+    "end_date":ISODate("2023-04-21")
+  },
+  {
+    "topic_id":3,
+     "task_id":3,
+    "topic":"Javascript",
+    "description":"Javascript",
+    "start_date":ISODate("2023-04-24"),
+    "end_date":ISODate("2023-05-19")
+  },
+  {
+    "topic_id":4,
+     "task_id":4,
+    "topic":"React",
+    "description":"React",
+    "start_date":ISODate("2023-05-22"),
+    "end_date":ISODate("2023-06-16")
+  },
+ {
+  "topic_id": 5,
+   "task_id":5,
+  "topic": "Bootstrap",
+  "description": "Master Bootstrap",
+  "start_date":ISODate("2023-06-19"),
+  "end_date":ISODate("2023-06-29")
+}
+]);
